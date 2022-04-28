@@ -1,0 +1,38 @@
+body{
+    background-image: url(/images/movie-bg.jpg) ;
+    background-size: cover;
+    background-color: black;
+
+}
+
+
+.header {
+    height: 5vh;
+}
+
+.home-movies {
+    height: 90vh;
+    background-color: rgb(62, 8, 8) ;
+    color: white;
+    
+}
+
+.movies-trailer{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.footer {
+    text-align: center;
+    height: 5vh;
+}
+
+.footer-img {
+    height: 3vh;
+    width: 6vw;
+}
+
+
+

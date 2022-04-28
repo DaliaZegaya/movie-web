@@ -6,11 +6,20 @@
 }
 
 .home {
+    width: 100vw;
     height: 60vh;
-    background-image: url(images/home-bg.jpeg);
+    background-image: url(images/new-bg.jpg);
     background-size: cover;
 
+
 }
+
+
+.welcome{
+    filter:none;
+    color: blue;
+}
+
 
 #home-bg {
     filter: blur(2px);
@@ -21,14 +30,23 @@
     align-items: center;
 }
 
+.header {
+    background-color: transparent;
+}
+
+#logo {
+    height: 5vh;
+    width: 15vw;
+}
+
 .home-carusela {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 5px solid white;
+    justify-content: center;
+    flex-flow: column wrap;
     height: 40vh;
-    width: 100%;
-    background-color: black;
+    width:100vw;
+    background-color: rgb(62, 8, 8) ;
+    
 }
 
 #top10 {
@@ -37,9 +55,12 @@
 
 .carusela-images{
     /* background-image: url(images/ambulance.webp); */
+    align-self: center;
+    border-top: 5px solid white;
     background-size: cover;
-    height: 25vh;
-    width: 70vw;
+    background-position: ;
+    height: 30vh;
+    width: 65vw;
     animation-name: carusela;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -48,20 +69,22 @@
 
   @keyframes carusela {
     
-    0% {background-image: url(images/ambulance.webp);}
-    25% {background-image: url(images/spiderman.webp);}
-    50% {background-image: url(images/king-rich.webp);}
-    75% {background-image: url(images/batman.jpg);}
-    100% {background-image: url(images/lionking.jpg);}
+    0% {background-image: url(images/ambulance.webp); background-size: cover; background-position: 0% 40%; }
+    25% {background-image: url(images/spiderman.webp); background-size: cover;}
+    50% {background-image: url(images/king-rich.webp); background-size: cover;}
+    75% {background-image: url(images/batman.jpg); background-size: cover;}
+    100% {background-image: url(images/lionking.jpg); background-size: cover;}
 }  
 
-
-
 .footer {
-    
+    position: absolute;
+    height: 5vh;
+     background-color: gray; 
 }
+
+
 
 .footer-img {
     height: 3vh;
-    width: 6vw;
+    width: 3vw;
 }
