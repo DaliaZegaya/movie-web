@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="stylesheet" href="/css/movies.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     </head>
 
@@ -19,54 +20,90 @@
     <!---------- header ------------->
 
         <div class="movies-container container">
-            <div class=" header row mt-3 ">
-                <div class="col-2"> Logo</div>
-                <div class="col-2"> Home</div>
-                <div class="col-2"> <a href="/index.html"> Movies </a></div>
-                <div class="col-2"> <a href="/html-pages/about.html"></a> About</div>
-                <div class="col-2"> <a href="/html-pages/team.html"></a>Team</div>
-                <div class="col-2"> <a href="/html-pages/contact.html"></a>Contact</div>
-            </div>
+            
+            <header class="header-nav">
+                
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">LOGO</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">HOME</a>
+                              </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/html-pages/movies.html">MOVIES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/html-pages/about.html">ABOUT US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/html-pages/team.html">OUR TEAM</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/html-pages/contact.html">CONTACT US</a>
+                          </li>
+    
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+    
+        </header>
+
 
             <!----------action movies-------->
 
             <div class="home-movies">
                 <h1 class="text-center display-1">Our Movies</h1>
+
                 <!----------action movies-------->
+
                 <div class="action-movies container row text-center">
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI" target="blank">
                             <img class="movies-trailer" src="/images/amulance-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s" target="blank">
                             <img class="movies-trailer" src="/images/morbius-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk" target="blank">
                             <img class="movies-trailer" src="/images/ProjectPower-movie.jpeg" alt="">
                             </a>
                              <div class=caption>
-                                10k l 15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k 15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI" target="blank">
                             <img class="movies-trailer" src="/images/the-outpost-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l 15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k 15/10/2021
                              </div>
                     </div>
 
@@ -77,39 +114,43 @@
                 <!----------drama movies-------->
 
                 <div class="action-movies container row text-center">
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI" target="blank">
                             <img class="movies-trailer" src="/images/pice-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s" target="blank">
                             <img class="movies-trailer" src="/images/time-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k 15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk" target="blank">
                             <img class="movies-trailer" src="/images/swallow-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI" target="blank">
                             <img class="movies-trailer" src="/images/trust-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
@@ -120,39 +161,43 @@
                 <!----------comedy movies-------->
 
                 <div class="action-movies container row text-center">
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=7NU-STboFeI" target="blank">
                             <img class="movies-trailer" src="/images/little-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&t=1s" target="blank">
                             <img class="movies-trailer" src="/images/up-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l 15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k 15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=Ji5ytDwEPYk" target="blank">
                             <img class="movies-trailer" src="/images/family-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l  15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://www.youtube.com/watch?v=f4LM9a02q9QI" target="blank">
                             <img class="movies-trailer" src="/images/school-movie.jpg" alt="">
                             </a>
                              <div class=caption>
-                                10k l 15/10/2021
+                                <i class="bi bi-heart-fill like"></i>
+                                10k  15/10/2021
                              </div>
                     </div>
 
@@ -169,16 +214,11 @@
             </div>
 
 
+            <div class="footer row mt-5 ">  
 
-
-
-
-
-            <div class="footer row mt-5 bg-warning ">  
-
-            <div class="col-4"><img class="footer-img" src="/images/facebook.png" alt=""></div>
-            <div class="col-4"><img class="footer-img" src="/images/github.png" alt=""></div>
-            <div class="col-4"><img class="footer-img" src="/images/linkdin.png" alt=""></div>
+               <div class="col-4"><i class="bi bi-linkedin"></i></div>
+                <div class="col-4"><i class="bi bi-facebook"></i></div>
+                <div class="col-4"><i class="bi bi-github"></i></div>
 
              </div>
     

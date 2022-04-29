@@ -1,13 +1,21 @@
-
+body{
+    overflow-x: hidden;
+}
 
 .main-container {
     color: white;
     
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .home {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     background-image: url(images/new-bg.jpg);
     background-size: cover;
 
@@ -16,6 +24,7 @@
 
 
 .welcome{
+    font-size: 50px;
     filter:none;
     color: blue;
 }
@@ -40,46 +49,47 @@
 }
 
 .home-carusela {
-    display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    height: 40vh;
-    width:100vw;
-    background-color: rgb(62, 8, 8) ;
+    height:100%;
+    /* background-color: hsl(0, 77%, 14%) ; */
+    background-color: black;
     
 }
+
 
 #top10 {
     color: white;
 }
 
 .carusela-images{
-    /* background-image: url(images/ambulance.webp); */
-    align-self: center;
-    border-top: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-position: ;
-    height: 30vh;
-    width: 65vw;
+    height: 400px;
+    width: 800px;
     animation-name: carusela;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
 
-  @keyframes carusela {
+   @keyframes carusela {
     
-    0% {background-image: url(images/ambulance.webp); background-size: cover; background-position: 0% 40%; }
-    25% {background-image: url(images/spiderman.webp); background-size: cover;}
+    0% {background-image: url(images/ambulance.webp); background-size: cover;;}
+    25% {background-image: url(images/spiderman.webp); background-size:cover;}
     50% {background-image: url(images/king-rich.webp); background-size: cover;}
     75% {background-image: url(images/batman.jpg); background-size: cover;}
     100% {background-image: url(images/lionking.jpg); background-size: cover;}
-}  
+}   
 
 .footer {
-    position: absolute;
+    text-align: center;
     height: 5vh;
-     background-color: gray; 
+    background-color: gray;
+
 }
 
 
@@ -88,3 +98,13 @@
     height: 3vh;
     width: 3vw;
 }
+
+ .red-button {
+    color: black;
+    background-color: rgb(219, 18, 18);
+    width: 300px;
+} 
+
+.header-nav {
+}
+
