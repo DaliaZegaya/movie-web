@@ -1,0 +1,64 @@
+body{
+    background-image: url(/images/about-bg.jpeg);
+}
+
+.movie-logo{
+     font-size: xx-large; 
+
+}
+
+.header-nav {
+    background-color: black;
+}
+
+
+
+.taetil{background-image: url(/images/home-bg.jpeg);
+    background-size: cover; background-position: center;
+    height: 35vh; color: white;
+    border: 1px solid white;
+
+}
+.container-ul{ 
+    margin-top: 0;
+    color:white;
+
+}
+
+.nav-bar{
+    background-color: black;
+}
+main{
+     background-image:url(/images/about-bg.jpeg);  
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.icons{
+    font-size: 130%;
+    color: rgb(93, 88, 88);
+}
+
+
+.footer{
+    color: rgb(93, 88, 88);
+    background-color:black;
+}
+
+span {
+    color: rgb(78, 76, 76);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}

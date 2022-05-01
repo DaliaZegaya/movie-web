@@ -1,0 +1,48 @@
+body{
+    background-image: url(/images/new-bg.jpg);
+}
+
+.contact-container{    height:50%; 
+    background-image: url(/images/about-bg.jpeg);
+    color: white;
+}
+.navbar{
+    background-color: black;
+}
+.botton{margin-left: -1%;
+    margin-top: 3%;
+    
+}
+
+.movie-logo{
+    font-size: xx-large; 
+
+}
+
+
+.icons{
+    font-size: 130%;
+    color: rgb(93, 88, 88);
+}
+
+
+.footer{
+    background-color: black;
+    color: rgb(93, 88, 88);
+}
+
+span {
+    color: rgb(191, 175, 175);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}

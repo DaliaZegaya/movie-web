@@ -1,10 +1,7 @@
-/* * {
-    padding: 0;
-    margin: 0;
-} */
+
 
 body{
-    background-image: url(/images/movie-bg.jpg) ;
+    background-image: url(/images/movies-bg.jpeg) ; 
     background-size: cover;
 }
 
@@ -13,16 +10,24 @@ a {
     color: white;
 }
 
+.movie-logo{
+    font-size: xx-large; 
+
+}
 
 .header {
     height: 5vh;
 }
 
+.header-nav {
+    background-color: black;
+}
 
 
 .home-movies {
     height: 100%;
-    background-color: hsla(0, 77%, 14%, 0.847) ;
+    /* background-color: hsla(0, 77%, 14%, 0.847) ;  */
+    background-color: rgba(0, 0, 0, 0.851); 
     color: white;
 }
 
@@ -34,28 +39,39 @@ a {
 
 .movies-trailer:hover{
     height: 300px;
-    width: 300px;
-    
+    width: 300px;   
 }
 
 
-
-.footer {
-    text-align: center;
-    height: 5vh;
-    background-color: gray;
-}
-
-.footer-icon {
-    height: 4vh;
-    width: 8vw;
-}
 
 
 
 .like:hover {
     color: rgb(217, 21, 21);
 }
+
+
+.footer{
+    color: rgb(93, 88, 88);
+    background-color:black;
+}
+
+.icons{
+    font-size: 130%;
+}
+
+span {
+    color: gray;
+}
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}
+
+
 
 
 

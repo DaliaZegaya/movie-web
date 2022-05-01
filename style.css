@@ -22,11 +22,19 @@ a {
 
 }
 
+.heading{
+    margin-top: 270px;
+}
+
+.red-button {
+    color: black;
+    background-color: rgb(219, 18, 18);
+    width: 300px;
+} 
+
 
 .welcome{
-    font-size: 50px;
-    filter:none;
-    color: blue;
+    font-size: 50px;    
 }
 
 
@@ -39,14 +47,17 @@ a {
     align-items: center;
 }
 
-.header {
-    background-color: transparent;
+.header-nav{
+    position: fixed;
+    width: 100vw;
 }
 
-#logo {
-    height: 5vh;
-    width: 15vw;
+.movie-logo{
+     font-size: xx-large; 
+
 }
+
+
 
 .home-carusela {
     justify-content: center;
@@ -69,42 +80,53 @@ a {
     background-size: cover;
     background-position: ;
     height: 400px;
-    width: 800px;
+    width: 60%;
     animation-name: carusela;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
 
-   @keyframes carusela {
+@keyframes carusela {
     
-    0% {background-image: url(images/ambulance.webp); background-size: cover;;}
+    0% {background-image: url(images/ambulance.webp); background-size: cover;}
     25% {background-image: url(images/spiderman.webp); background-size:cover;}
     50% {background-image: url(images/king-rich.webp); background-size: cover;}
     75% {background-image: url(images/batman.jpg); background-size: cover;}
     100% {background-image: url(images/lionking.jpg); background-size: cover;}
-}   
+}  
 
-.footer {
-    text-align: center;
-    height: 5vh;
-    background-color: gray;
 
+.icons{
+    font-size: 130%;
 }
 
 
-
-.footer-img {
-    height: 3vh;
-    width: 3vw;
+.footer{
+    background-color: rgb(26, 25, 25);
 }
 
- .red-button {
+span {
+    color: rgb(78, 76, 76);
+}
+
+a{
+    text-decoration: none;
     color: black;
-    background-color: rgb(219, 18, 18);
-    width: 300px;
-} 
-
-.header-nav {
 }
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .carusela-images{
+        width: 85%;
+    }
+    
+}
+
 

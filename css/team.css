@@ -4,8 +4,18 @@
 }
 
 body{
-    background-image: url(/images/movie-bg.jpg) ; 
+    background-image: url(/images/movies-bg.jpeg) ; 
     background-size: cover;
+
+}
+
+.header-nav{
+    background-color: black;
+    
+}
+
+.movie-logo{
+    font-size: xx-large; 
 
 }
 
@@ -19,18 +29,24 @@ body{
 .our-profiles {
     color: white;
     display: flex;
-    justify-content: space-around;
-    margin: 20px 80px;
-    background-color: hsl(0, 77%, 14%) ;
+    justify-content: center;
+    /* background-color: hsl(0, 77%, 14%) ;  */
     
 
 }
 
+.profiles{
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 70vw;
+}
+
 .profile {
     flex-basis: 260px;
+    
 }
 
 .profile  .profile-img {
+    border-radius: 200px;
     height: 260px;
     width: 260px;
     filter: grayscale(100%);
@@ -43,6 +59,23 @@ body{
     width: 300px;
 }
 
+.profile  .profile-work {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+
+.profile  .profile-work:hover {
+    filter: grayscale(0);
+    height: 240px;
+    width: 240px;
+}
+
+
+
+
 .user-name{
     margin-top: 30px;
     font-size: 35px;
@@ -51,11 +84,31 @@ body{
 .profile h5{
     font-size: 18px;
     font-weight: 50;
-    color: black;
+    color: white;
 }
 
 .profile p{
     font-size: 16px;
-    margin-top: 20px;
 
 }
+
+.footer{
+    color: rgb(93, 88, 88);
+    background-color:black;
+}
+
+.icons{
+    font-size: 130%;
+}
+
+span {
+    color: gray;
+}
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}
+

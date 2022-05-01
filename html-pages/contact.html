@@ -7,8 +7,150 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="/css/contact.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 </head>
+
 <body>
+
+  <div class="container-full">
+    <header class="header-nav">
+                
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black container">
+          <div class="container-fluid">
+            <a class="movie-logo text-danger navbar-brand fst-italic" href="#">MovieWeb</a>
+
+            <div class="dropdown">
+              <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="/index.html">HOME</a></li>
+                <li><a class="dropdown-item" href="/html-pages/movies.html">MOVIES</a></li>
+                <li><a class="dropdown-item" href="/html-pages/about.html">ABOUT</a></li>
+                <li><a class="dropdown-item" href="/html-pages/team.html">TEAM</a></li>
+                <li><a class="dropdown-item" href="/html-pages/contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/index.html">HOME</a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html-pages/movies.html">MOVIES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html-pages/about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html-pages/team.html">OUR TEAM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html-pages/contact.html">CONTACT US</a>
+                </li>
+
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+</header>
+
+
+    <div class="contact-container container  text-white vh-100 p-5 text-center mt-4"> 
+    <h1>Contact</h1>
+    <h2>we want to hear from you</h2>
+    <h3>send us an email:</h3>
+    <form>
+        <div class="form-row d-flex flex-column align-items-center justify-content-center">
+          <div class="col-12 col-sm-6">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+
+          <div class="col-12 col-sm-6 mt-3">
+            <input type="text" class="form-control" placeholder="Last name">
+
+          </div>
+          <div class="form-group col-12 col-sm-6">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="col-12 col-sm-6">
+          <label for="exampleFormControlTextarea1"> textarea</label>
+    <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea></div>
+        </div>
+        <button  type="button" class="btn btn-primary botton ">send</button>
+       
+      </form>
+    </div>
+</div>
+
+<footer class="footer text-black mt-2 ">
+  <div class="container text-center">
+      <div class="row text-center">
+
+          <div class="col-4 mt-3">
+              <h5>COMPANY</h5>
+              <p>About Us <br>
+               Our Team <br>
+               Blog
+             </p>
+          </div>
+
+          <div class="col-4 mt-3">
+              <h5>CONTACT US</h5>
+
+              <a href="https://web.whatsapp.com/" target="blank">
+              <i class="icons bi bi-whatsapp"></i> </a>
+
+              <a href="https://www.facebook.com/dalia.zegaya" target="blank">
+              <i class="icons bi bi-facebook"></i> </a>
+
+              <a href="https://www.youtube.com/watch?v=EOpt0HLymis&t=291s" target="blank">
+              <i class="icons bi bi-instagram"></i> </a>
+
+              <a href="https://www.linkedin.com/in/dalia-zegaya-b5b514238/" target="blank"  >
+              <i class="icons bi bi-linkedin"></i> </a>
+
+
+
+          </div>
+
+          
+          <div class="col-4 mt-3">
+           <h5>ADRESS</h5>
+           <p>Road Trip 15 <br>
+             Tel Aviv <br>
+             85910
+           </p>
+
+
+       </div>
+
+       <span>
+         Copyright 2022 MovieWeb © All right reserve.
+       </span>
+
+
+      </div>
+
+  </div>
+
+</footer>
+
     
 </body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </html>
